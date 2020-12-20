@@ -1,0 +1,61 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  word-spacing: 1px;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+p { 
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.kanye_container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kanye_face {
+  border-radius: 20px;
+  width: 450px;
+  cursor: pointer;
+  transition: 300ms;
+  box-shadow: 0 0 15px  green
+}
+
+.kanye_face:hover {
+  box-shadow: 0 0 4px  green
+}
+
+.kanye_tip {
+  font-size: 12px;
+}
+
+.kanye_quote {
+  font-size: 18px;
+  font-style: italic;
+}
